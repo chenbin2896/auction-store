@@ -1,0 +1,11 @@
+server:
+  port: 8801
+
+spring:
+  application:
+    name: store-account
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8901/eureka/

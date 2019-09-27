@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/acution-store-order/acution-store-order.iml" filepath="$PROJECT_DIR$/acution-store-order/acution-store-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/auction-store.iml" filepath="$PROJECT_DIR$/auction-store.iml" />
       <module fileurl="file://$PROJECT_DIR$/auction-store-account/auction-store-account.iml" filepath="$PROJECT_DIR$/auction-store-account/auction-store-account.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />

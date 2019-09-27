@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/auction-store-account/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-server/pom.xml" />
+        <option value="$PROJECT_DIR$/acution-store-order/pom.xml" />
       </list>
     </option>
   </component>

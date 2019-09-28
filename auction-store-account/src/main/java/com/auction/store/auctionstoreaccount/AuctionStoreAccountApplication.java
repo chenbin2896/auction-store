@@ -1,6 +1,7 @@
 package com.auction.store.auctionstoreaccount;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -21,9 +22,12 @@ public class AuctionStoreAccountApplication {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
+    @Value("${spring.datasource.username}")
+    private String url;
+
     @RequestMapping("/test")
     public String demo () {
         jdbcTemplate.query("select * from t_user ",new BeanPropertyRowMapper<>(String.class));
-        return "gfadkgkjhlksf";
+        return url;
     }
 }

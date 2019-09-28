@@ -3,12 +3,12 @@ server:
 
 spring:
   application:
-    name: store-account
+    name: account
   cloud:
     config:
       label: master
       profile: dev
-      uri: http://localhost:9001
+      uri: http://localhost:9001/
 
 eureka:
   client:

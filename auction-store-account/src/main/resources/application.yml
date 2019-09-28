@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: store-account
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:9001
 
 eureka:
   client:

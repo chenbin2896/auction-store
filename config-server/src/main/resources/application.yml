@@ -3,12 +3,11 @@ server:
 spring:
   application:
     name: config-server
-
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/xiaoguangdong999/store-cloud-config.git
+          uri: https://github.com/xiaoguangdong999/auction-store_1.0.0_TEST_2019_09_26
           search-paths:
             - config
       label: master
@@ -20,3 +19,4 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   instance:
     hostname: localhost
+

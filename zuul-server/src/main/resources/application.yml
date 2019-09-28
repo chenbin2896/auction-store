@@ -10,8 +10,6 @@ eureka:
       defaultZone: http://localhost:8901/eureka
 zuul:
   routes:
-    api:
-      account:
-        path: /api/account/**
-        serviceId: store-account
-
+    account:
+      path: /account/**
+      serviceId: store-account

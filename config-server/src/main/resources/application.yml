@@ -8,7 +8,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/xiaoguangdong999/store-cloud-config
+          uri: https://github.com/xiaoguangdong999/store-cloud-config.git
+          search-paths:
+            - config
       label: master
 eureka:
   client:

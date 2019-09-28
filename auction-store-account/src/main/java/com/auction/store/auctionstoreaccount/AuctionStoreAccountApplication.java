@@ -18,6 +18,6 @@ public class AuctionStoreAccountApplication {
 
     @RequestMapping("/test")
     public String demo () {
-        return "明天，你好";
+        return "gfadkgkjhlksf";
     }
 }

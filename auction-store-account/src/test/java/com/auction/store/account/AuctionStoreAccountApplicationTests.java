@@ -1,4 +1,4 @@
-package com.auction.store.auctionstoreaccount;
+package com.auction.store.account;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

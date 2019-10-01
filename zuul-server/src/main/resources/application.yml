@@ -12,4 +12,7 @@ zuul:
   routes:
     account:
       path: /account/**
-      serviceId: store-account
+      serviceId: account
+    good:
+      path: /good/**
+      serviceId: good

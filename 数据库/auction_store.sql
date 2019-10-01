@@ -118,7 +118,7 @@ create table t_category (
 #发布地址表
 create table t_address (
 	addressid int(11) not null auto_increment primary key,
-	name varchar(20) comment'省/市/区'
+	name varchar(20) comment'省/市/区',
 	pid  int(11) comment'自连接 id'
 );
 

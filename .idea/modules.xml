@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/auction-store-account/auction-store-account.iml" filepath="$PROJECT_DIR$/auction-store-account/auction-store-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-store-good/auction-store-good.iml" filepath="$PROJECT_DIR$/auction-store-good/auction-store-good.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/store-parent.iml" filepath="$PROJECT_DIR$/store-parent.iml" />

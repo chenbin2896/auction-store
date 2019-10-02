@@ -3,15 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.auction.store</groupId>
         <artifactId>store-parent</artifactId>
+        <groupId>com.auction.store</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.auction.good</groupId>
-    <artifactId>auction-store-good</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>auction-store-good</name>
+
+    <artifactId>auction-store-order</artifactId>
+
     <packaging>jar</packaging>
     <properties>
         <java.version>1.8</java.version>
@@ -82,5 +81,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

@@ -23,6 +23,8 @@
         <module>zuul-server</module>
         <module>auction-store-account</module>
         <module>auction-store-good</module>
+        <module>auction-store-pay</module>
+        <module>auction-store-order</module>
     </modules>
 
     <properties>

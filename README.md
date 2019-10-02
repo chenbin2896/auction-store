@@ -11,5 +11,11 @@
 ## auction-store-good  商品管理中心
 ### port： 8806-8810
 
+## auction-store-order  订单管理中心
+### port： 8811-8815
+
+## auction-store-pay  支付中心
+### port： 8816-8820
+
 ## zuul-server  网关
 ### port: 8701-8705

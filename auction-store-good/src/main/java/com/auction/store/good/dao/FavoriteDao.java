@@ -1,11 +1,8 @@
 package com.auction.store.good.dao;
 
-import com.auction.store.good.entity.Good;
+import com.auction.store.good.entity.Favorite;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
-
-import java.util.List;
 
 /**
  * @author User
@@ -13,5 +10,5 @@ import java.util.List;
  * @description
  */
 @Repository
-public interface GoodDao extends JpaRepository<Good,Integer> {
+public interface FavoriteDao extends JpaRepository<Favorite,Integer> {
 }

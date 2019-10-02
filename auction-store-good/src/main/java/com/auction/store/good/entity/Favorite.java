@@ -10,33 +10,24 @@ import java.util.Date;
 
 /**
  * @author User
- * @date 2019/9/28
+ * @date 2019/10/1
  * @description
  */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "t_favorites")
 @Entity
-@Table(name = "t_goods")
-public class Good {
+public class Favorite {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer gid;
-
-    private String gname;
+    private Integer fid;
 
     private Integer uid;
 
+    private Integer gid;
+
     @CreationTimestamp
-    private Date uploadTime;
-
-    private String goodStatus;
-
-    private Integer cid;
-
-    private String remark;
-
-    private Integer addressId;
-
+    private Date createtime;
 }

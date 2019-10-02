@@ -31,7 +31,7 @@ public class SwaggerConfig {
     //配置在线文档的基本信息
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("拍卖网用户管理中心")
+                .title("拍卖网商品管理中心")
                 .description("git地址：https://github.com/xiaoguangdong999/auction-store_1.0.0_TEST_2019_09_26")
                 .termsOfServiceUrl("http://xixi.natapp4.cc/account/swagger-ui.html")
                 .version("1.0")

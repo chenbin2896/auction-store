@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/auction-store-account/auction-store-account.iml" filepath="$PROJECT_DIR$/auction-store-account/auction-store-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auction-store-common/auction-store-common.iml" filepath="$PROJECT_DIR$/auction-store-common/auction-store-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/auction-store-good/auction-store-good.iml" filepath="$PROJECT_DIR$/auction-store-good/auction-store-good.iml" />
       <module fileurl="file://$PROJECT_DIR$/auction-store-order/auction-store-order.iml" filepath="$PROJECT_DIR$/auction-store-order/auction-store-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/auction-store-pay/auction-store-pay.iml" filepath="$PROJECT_DIR$/auction-store-pay/auction-store-pay.iml" />

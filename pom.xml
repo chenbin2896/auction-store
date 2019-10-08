@@ -25,6 +25,7 @@
         <module>auction-store-good</module>
         <module>auction-store-pay</module>
         <module>auction-store-order</module>
+        <module>auction-store-common</module>
     </modules>
 
     <properties>
